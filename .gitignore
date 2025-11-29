@@ -1,0 +1,106 @@
+TODO
+# === Python ===
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# Package files
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === C++ ===
+# Build directories
+build/
+cmake-build-*/
+out/
+bin/
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.idb
+*.ilk
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiler outputs
+*.out
+
+# === Data ===
+# Large data files (кроме обработанных)
+data/raw/
+!data/raw/.gitkeep
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# === Results (можно игнорировать временные) ===
+results/performance/temp_*
