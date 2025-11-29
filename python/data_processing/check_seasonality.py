@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Загружаем обработанные данные
