@@ -46,6 +46,14 @@ add_executable(forth_tuning
     src/time_series.cpp
 )
 
+add_executable(performance_benchmark
+    src/performance_benchmark.cpp
+    src/holt_winters.cpp
+    src/metrics.cpp
+    src/time_series.cpp
+)
+
+
 
 # Установка свойств компиляции
 target_compile_features(holt_winters_main PRIVATE cxx_std_17)

@@ -1,0 +1,20 @@
+{
+  "algorithm_complexity": {
+    "algorithm": "Triple Exponential Smoothing (Holt-Winters)",
+    "time_complexity": {
+      "training": "O(n)",
+      "prediction": "O(n)",
+      "average_training_time_per_point_ms": 0.0,
+      "average_prediction_time_per_point_ms": 0.0
+    },
+    "space_complexity": {
+      "complexity": "O(n)",
+      "average_memory_per_point_kb": 0.0078,
+      "constant_factors": {
+        "seasonal_components": 7,
+        "level_trend_components": 2
+      }
+    },
+    "conclusion": "Алгоритм имеет линейную сложность O(n) по времени и памяти, что делает его эффективным для больших временных рядов"
+  }
+}
