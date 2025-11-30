@@ -3,8 +3,8 @@
 ## Структура папок
 python/
 └── data_processing/
-├── analyze_dataset.py # Основная обработка данных
-└── check_seasonality.py # Анализ сезонности и качества
+├── analyze_dataset.py # Основная обработка данных  
+└── check_seasonality.py # Анализ сезонности и качества  
 
 
 
