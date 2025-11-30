@@ -24,7 +24,7 @@ ts_df = pd.DataFrame({
 })
 
 # Переименовываем страницу для удобства
-page_name_english = "Back to the Future (Japanese Wikipedia)"
+page_name_english = "List of Gods (Japanese Wikipedia)"
 ts_df['page_name'] = page_name_english
 
 # Сохраняем обработанные данные

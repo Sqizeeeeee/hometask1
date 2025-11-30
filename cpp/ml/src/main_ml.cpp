@@ -28,7 +28,7 @@ int main() {
     
     // 2. Разделение на обучающую и тестовую выборки
     std::cout << "Разделение данных (80% train, 20% test)..." << std::endl;
-    auto [train_data, test_data] = ts.split(0.8);
+    auto [train_data, test_data] = ts.split(0.7);
     
     std::cout << "Обучающая выборка: " << train_data.size() << " точек" << std::endl;
     std::cout << "Тестовая выборка: " << test_data.size() << " точек" << std::endl;
@@ -37,7 +37,7 @@ int main() {
     std::cout << "\nОбучение модели Holt-Winters..." << std::endl;
     HoltWinters model(7); // недельная сезонность
     
-    if (!model.fit(train_data, 0.3, 0.1, 0.1)) {
+    if (!model.fit(train_data, 0.07, 0.01, 0.07)) {
         std::cerr << "Ошибка обучения модели!" << std::endl;
         return 1;
     }

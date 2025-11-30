@@ -1,0 +1,47 @@
+{
+  "ml_experiment": {
+    "algorithm": "Triple Exponential Smoothing (Holt-Winters)",
+    "dataset": "Wikipedia Page Traffic - 神の一覧_ja.wikipedia_desktop_all-agents",
+    "period": "2018-01-01 to 2019-12-31",
+    "data_points": 730,
+    "model_parameters": {
+      "season_length": 7,
+      "alpha": 0.07,
+      "beta": 0.01,
+      "gamma": 0.07,
+      "train_ratio": 0.7
+    },
+    "training_results": {
+      "final_level": 423.593,
+      "final_trend": -0.0488894,
+      "train_size": 510,
+      "test_size": 220
+    },
+    "performance_metrics": {
+      "WAPE": 11.4068,
+      "MAE": 48.5228,
+      "RMSE": 64.06,
+      "target_achieved": true,
+      "target_WAPE": 12.0,
+      "improvement_over_target": 0.5932
+    },
+    "prediction_example": {
+      "actual_first_5": [
+        369,
+        487,
+        408,
+        510,
+        437
+      ],
+      "predicted_first_5": [
+        437.179,
+        434.343,
+        435.59,
+        443.633,
+        442.326
+      ]
+    },
+    "conclusion": "✅ SUCCESS: WAPE < 12% target achieved with 11.4068%",
+    "timestamp": "2025-11-30T21:08:06.304614"
+  }
+}

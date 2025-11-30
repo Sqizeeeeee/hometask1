@@ -19,12 +19,33 @@ add_executable(holt_winters_main
     src/time_series.cpp
 )
 
-add_executable(parameter_tuning
-    src/parameter_tuning.cpp
+add_executable(first_tuning
+    src/first_tuning.cpp
     src/holt_winters.cpp
     src/metrics.cpp
     src/time_series.cpp
 )
+add_executable(second_tuning
+    src/second_tuning.cpp
+    src/holt_winters.cpp
+    src/metrics.cpp
+    src/time_series.cpp
+)
+
+add_executable(third_tuning
+    src/third_tuning.cpp
+    src/holt_winters.cpp
+    src/metrics.cpp
+    src/time_series.cpp
+)
+
+add_executable(forth_tuning
+    src/forth_tuning.cpp
+    src/holt_winters.cpp
+    src/metrics.cpp
+    src/time_series.cpp
+)
+
 
 # Установка свойств компиляции
 target_compile_features(holt_winters_main PRIVATE cxx_std_17)
