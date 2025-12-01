@@ -5,22 +5,22 @@
 ### Структура проекта C++
 
 
-├── cpp
-│   └── ml
-│       ├── include
-│       │   ├── holt_winters.h # Основной класс алгоритма 
-│       │   ├── metrics.h # Метрики качества (WAPE, MAE, RMSE) 
-│       │   └── time_series.h # Работа с временными рядами
-│       ├── src
-│       │   ├── first_tuning.cpp # Грубый подбор параметров (Этап 1)
-│       │   ├── forth_tuning.cpp # Самый точный подбор параметров (Этап 4)
-│       │   ├── holt_winters.cpp # Реализация алгоритма
-│       │   ├── main_ml.cpp # Основная программа тестирования 
-│       │   ├── metrics.cpp # Реализация метрик
-│       │   ├── performance_benchmark.cpp
-│       │   ├── second_tuning.cpp # Менее грубый подбор параметров (Этап 2)
-│       │   ├── third_tuning.cpp # Детальный подбор параметров (Этап 3)
-│       │   └── time_series.cpp # Загрузка и обработка данных
+├── cpp \
+│   └── ml \
+│       ├── include \
+│       │   ├── holt_winters.h # Основной класс алгоритма \
+│       │   ├── metrics.h # Метрики качества (WAPE, MAE, RMSE) \
+│       │   └── time_series.h # Работа с временными рядами \
+│       ├── src \
+│       │   ├── first_tuning.cpp # Грубый подбор параметров (Этап 1) \
+│       │   ├── forth_tuning.cpp # Самый точный подбор параметров (Этап 4) \
+│       │   ├── holt_winters.cpp # Реализация алгоритма \
+│       │   ├── main_ml.cpp # Основная программа тестирования \
+│       │   ├── metrics.cpp # Реализация метрик \
+│       │   ├── performance_benchmark.cpp \
+│       │   ├── second_tuning.cpp # Менее грубый подбор параметров (Этап 2) \
+│       │   ├── third_tuning.cpp # Детальный подбор параметров (Этап 3) \
+│       │   └── time_series.cpp # Загрузка и обработка данных \
 │       └── CMakeLists.txt
 
 
