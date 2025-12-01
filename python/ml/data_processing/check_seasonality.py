@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Загружаем обработанные данные
-ts_df = pd.read_csv('../../data/processed/time_series.csv', parse_dates=['date'])
+ts_df = pd.read_csv('../../../data/processed/time_series.csv', parse_dates=['date'])
 ts_df = ts_df.set_index('date')
 
 print("=== АНАЛИЗ СЕЗОННОСТИ ===")
@@ -23,7 +23,7 @@ result.trend.plot(ax=axes[1], title='Тренд')
 result.seasonal.plot(ax=axes[2], title='Сезонность (недельная)')
 result.resid.plot(ax=axes[3], title='Остатки')
 plt.tight_layout()
-plt.savefig('../../results/graphs/seasonal_decomposition.png', dpi=300)
+plt.savefig('../../../results/ml/graphs/seasonal_decomposition.png', dpi=300)
 plt.close()
 
-print("График сезонности сохранен: results/graphs/seasonal_decomposition.png")
+print("График сезонности сохранен: results/ml/graphs/seasonal_decomposition.png")

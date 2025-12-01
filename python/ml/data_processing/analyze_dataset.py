@@ -4,10 +4,10 @@ import os
 from datetime import datetime, timedelta
 
 # Создаем папку для результатов
-os.makedirs('../../results/graphs', exist_ok=True)
+os.makedirs('../../../results/ml/graphs', exist_ok=True)
 
 # Читаем данные
-df = pd.read_csv('../../data/processed/selected_page.csv', header=None)
+df = pd.read_csv('../../../data/processed/selected_page.csv', header=None)
 
 # Первый элемент - название страницы, остальные - данные по дням
 page_name = df.iloc[0, 0]
@@ -28,7 +28,7 @@ page_name_english = "List of Gods (Japanese Wikipedia)"
 ts_df['page_name'] = page_name_english
 
 # Сохраняем обработанные данные
-ts_df.to_csv('../../data/processed/time_series.csv', index=False)
+ts_df.to_csv('../../../data/processed/time_series.csv', index=False)
 
 # Создаем график
 plt.figure(figsize=(12, 6))
@@ -38,7 +38,7 @@ plt.xlabel('Date')
 plt.ylabel('Daily Page Views')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig('../../results/graphs/traffic_overview.png', dpi=300, bbox_inches='tight')
+plt.savefig('../../../results/ml/graphs/traffic_overview.png', dpi=300, bbox_inches='tight')
 plt.close()
 
 print("=== ДАННЫЕ ПОДГОТОВЛЕНЫ ===")
@@ -46,4 +46,4 @@ print(f"Страница: {page_name_english}")
 print(f"Период: {ts_df['date'].min().strftime('%Y-%m-%d')} до {ts_df['date'].max().strftime('%Y-%m-%d')}")
 print(f"Дней данных: {len(ts_df)}")
 print(f"Файл данных: data/processed/time_series.csv")
-print(f"График: results/graphs/traffic_overview.png")
+print(f"График: results/ml/graphs/traffic_overview.png")
