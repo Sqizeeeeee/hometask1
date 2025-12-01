@@ -1,0 +1,196 @@
+{
+  "benchmarks": [
+    {
+      "id": 1,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 10000,
+      "data_size_bytes": 160000,
+      "data_size_mb": 0.153,
+      "timing": {
+        "total_time_ms": 4.021,
+        "encryption_time_ms": 2.036,
+        "decryption_time_ms": 1.984,
+        "encryption_speed_ops_sec": 4910486.737,
+        "decryption_speed_ops_sec": 5039263.421
+      },
+      "throughput": {
+        "encryption_mbps": 628.542,
+        "decryption_mbps": 645.026,
+        "total_mbps": 318.339
+      },
+      "memory": {
+        "usage_bytes": 320000,
+        "usage_mb": 0.305,
+        "usage_kb": 312.500,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 2,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 50000,
+      "data_size_bytes": 800000,
+      "data_size_mb": 0.763,
+      "timing": {
+        "total_time_ms": 20.264,
+        "encryption_time_ms": 10.037,
+        "decryption_time_ms": 10.227,
+        "encryption_speed_ops_sec": 4981485.314,
+        "decryption_speed_ops_sec": 4889198.538
+      },
+      "throughput": {
+        "encryption_mbps": 637.630,
+        "decryption_mbps": 625.817,
+        "total_mbps": 315.834
+      },
+      "memory": {
+        "usage_bytes": 1600000,
+        "usage_mb": 1.526,
+        "usage_kb": 1562.500,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 3,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 100000,
+      "data_size_bytes": 1600000,
+      "data_size_mb": 1.526,
+      "timing": {
+        "total_time_ms": 38.745,
+        "encryption_time_ms": 19.611,
+        "decryption_time_ms": 19.134,
+        "encryption_speed_ops_sec": 5099103.369,
+        "decryption_speed_ops_sec": 5226378.221
+      },
+      "throughput": {
+        "encryption_mbps": 652.685,
+        "decryption_mbps": 668.976,
+        "total_mbps": 330.365
+      },
+      "memory": {
+        "usage_bytes": 3200000,
+        "usage_mb": 3.052,
+        "usage_kb": 3125.000,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 4,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 250000,
+      "data_size_bytes": 4000000,
+      "data_size_mb": 3.815,
+      "timing": {
+        "total_time_ms": 95.062,
+        "encryption_time_ms": 47.799,
+        "decryption_time_ms": 47.264,
+        "encryption_speed_ops_sec": 5230271.489,
+        "decryption_speed_ops_sec": 5289466.028
+      },
+      "throughput": {
+        "encryption_mbps": 669.475,
+        "decryption_mbps": 677.052,
+        "total_mbps": 336.621
+      },
+      "memory": {
+        "usage_bytes": 8000000,
+        "usage_mb": 7.629,
+        "usage_kb": 7812.500,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 5,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 500000,
+      "data_size_bytes": 8000000,
+      "data_size_mb": 7.629,
+      "timing": {
+        "total_time_ms": 190.245,
+        "encryption_time_ms": 95.416,
+        "decryption_time_ms": 94.829,
+        "encryption_speed_ops_sec": 5240183.826,
+        "decryption_speed_ops_sec": 5272650.942
+      },
+      "throughput": {
+        "encryption_mbps": 670.744,
+        "decryption_mbps": 674.899,
+        "total_mbps": 336.408
+      },
+      "memory": {
+        "usage_bytes": 16000000,
+        "usage_mb": 15.259,
+        "usage_kb": 15625.000,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 6,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 750000,
+      "data_size_bytes": 12000000,
+      "data_size_mb": 11.444,
+      "timing": {
+        "total_time_ms": 493.373,
+        "encryption_time_ms": 256.344,
+        "decryption_time_ms": 237.029,
+        "encryption_speed_ops_sec": 2925752.683,
+        "decryption_speed_ops_sec": 3164169.785
+      },
+      "throughput": {
+        "encryption_mbps": 374.496,
+        "decryption_mbps": 405.014,
+        "total_mbps": 194.579
+      },
+      "memory": {
+        "usage_bytes": 24000000,
+        "usage_mb": 22.888,
+        "usage_kb": 23437.500,
+        "bytes_per_block": 32.000
+      }
+    },
+    {
+      "id": 7,
+      "algorithm": "SEED",
+      "dataset": "paysim_32bit",
+      "blocks_processed": 1000000,
+      "data_size_bytes": 16000000,
+      "data_size_mb": 15.259,
+      "timing": {
+        "total_time_ms": 378.795,
+        "encryption_time_ms": 189.981,
+        "decryption_time_ms": 188.814,
+        "encryption_speed_ops_sec": 5263676.173,
+        "decryption_speed_ops_sec": 5296212.785
+      },
+      "throughput": {
+        "encryption_mbps": 673.751,
+        "decryption_mbps": 677.915,
+        "total_mbps": 337.913
+      },
+      "memory": {
+        "usage_bytes": 32000000,
+        "usage_mb": 30.518,
+        "usage_kb": 31250.000,
+        "bytes_per_block": 32.000
+      }
+    }
+  ],
+  "metadata": {
+    "timestamp": "Dec  1 2025 17:02:46",
+    "platform": "macOS",
+    "compiler": "clang++",
+    "block_size_bits": 128,
+    "block_size_bytes": 16,
+    "key_size_bytes": 16,
+    "total_records": 1000000,
+    "memory_measurement_method": "getrusage()"
+  }
+}

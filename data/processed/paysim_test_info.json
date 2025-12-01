@@ -1,0 +1,19 @@
+{
+  "files": [
+    "paysim_8bit_step.csv",
+    "paysim_8bit_type.csv",
+    "paysim_32bit.csv",
+    "paysim_64bit_old.csv",
+    "paysim_64bit_new.csv"
+  ],
+  "data_info": {
+    "dataset": "PaySim Synthetic Financial Transactions",
+    "source": "https://www.kaggle.com/datasets/ealaxi/paysim1",
+    "rows_processed": 1000000,
+    "samples_8bit": 1000000,
+    "samples_32bit": 1000000,
+    "samples_64bit": 1000000,
+    "data_types": "8-bit, 32-bit, 64-bit integers",
+    "description": "Financial amounts and balances for SEED encryption testing"
+  }
+}
