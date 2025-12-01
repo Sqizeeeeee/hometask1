@@ -95,12 +95,3 @@
 cd ~/bmstu/homework1
 python python/crypto/data_processing/bitcoin_data_prep.py
 ```
-
-{
-  "dataset": "Bitcoin Historical Data",
-  "prepared_for": "SEED Encryption Algorithm",
-  "rows_processed": 50000,
-  "encryption_values": 100000,
-  "data_types": "64-bit integers",
-  "files_size": "~5 MB"
-}
