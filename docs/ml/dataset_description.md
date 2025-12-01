@@ -8,7 +8,7 @@ Kaggle: Wikipedia Web Traffic 2018-19
 
 ## Выбранная страница
 - **Оригинальное название**: バック・トゥ・ザ・フューチャー_ja.wikipedia_desktop_all-agents
-- **Английское название**: Back to the Future (Japanese Wikipedia)
+- **Английское название**: List of Gods (Japanese Wikipedia)
 
 ## Структура данных
 Файл: `data/processed/time_series.csv`
