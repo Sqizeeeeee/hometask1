@@ -8,16 +8,16 @@
       "data_size_bytes": 160000,
       "data_size_mb": 0.153,
       "timing": {
-        "total_time_ms": 4.021,
-        "encryption_time_ms": 2.036,
-        "decryption_time_ms": 1.984,
-        "encryption_speed_ops_sec": 4910486.737,
-        "decryption_speed_ops_sec": 5039263.421
+        "total_time_ms": 4.035,
+        "encryption_time_ms": 2.028,
+        "decryption_time_ms": 2.007,
+        "encryption_speed_ops_sec": 4931574.405,
+        "decryption_speed_ops_sec": 4982146.478
       },
       "throughput": {
-        "encryption_mbps": 628.542,
-        "decryption_mbps": 645.026,
-        "total_mbps": 318.339
+        "encryption_mbps": 631.242,
+        "decryption_mbps": 637.715,
+        "total_mbps": 317.231
       },
       "memory": {
         "usage_bytes": 320000,
@@ -34,16 +34,16 @@
       "data_size_bytes": 800000,
       "data_size_mb": 0.763,
       "timing": {
-        "total_time_ms": 20.264,
-        "encryption_time_ms": 10.037,
-        "decryption_time_ms": 10.227,
-        "encryption_speed_ops_sec": 4981485.314,
-        "decryption_speed_ops_sec": 4889198.538
+        "total_time_ms": 19.224,
+        "encryption_time_ms": 9.667,
+        "decryption_time_ms": 9.557,
+        "encryption_speed_ops_sec": 5172168.561,
+        "decryption_speed_ops_sec": 5231904.152
       },
       "throughput": {
-        "encryption_mbps": 637.630,
-        "decryption_mbps": 625.817,
-        "total_mbps": 315.834
+        "encryption_mbps": 662.038,
+        "decryption_mbps": 669.684,
+        "total_mbps": 332.919
       },
       "memory": {
         "usage_bytes": 1600000,
@@ -60,16 +60,16 @@
       "data_size_bytes": 1600000,
       "data_size_mb": 1.526,
       "timing": {
-        "total_time_ms": 38.745,
-        "encryption_time_ms": 19.611,
-        "decryption_time_ms": 19.134,
-        "encryption_speed_ops_sec": 5099103.369,
-        "decryption_speed_ops_sec": 5226378.221
+        "total_time_ms": 38.923,
+        "encryption_time_ms": 19.799,
+        "decryption_time_ms": 19.124,
+        "encryption_speed_ops_sec": 5050664.478,
+        "decryption_speed_ops_sec": 5229020.373
       },
       "throughput": {
-        "encryption_mbps": 652.685,
-        "decryption_mbps": 668.976,
-        "total_mbps": 330.365
+        "encryption_mbps": 646.485,
+        "decryption_mbps": 669.315,
+        "total_mbps": 328.851
       },
       "memory": {
         "usage_bytes": 3200000,
@@ -86,16 +86,16 @@
       "data_size_bytes": 4000000,
       "data_size_mb": 3.815,
       "timing": {
-        "total_time_ms": 95.062,
-        "encryption_time_ms": 47.799,
-        "decryption_time_ms": 47.264,
-        "encryption_speed_ops_sec": 5230271.489,
-        "decryption_speed_ops_sec": 5289466.028
+        "total_time_ms": 94.850,
+        "encryption_time_ms": 47.730,
+        "decryption_time_ms": 47.120,
+        "encryption_speed_ops_sec": 5237768.501,
+        "decryption_speed_ops_sec": 5305626.249
       },
       "throughput": {
-        "encryption_mbps": 669.475,
-        "decryption_mbps": 677.052,
-        "total_mbps": 336.621
+        "encryption_mbps": 670.434,
+        "decryption_mbps": 679.120,
+        "total_mbps": 337.375
       },
       "memory": {
         "usage_bytes": 8000000,
@@ -112,16 +112,16 @@
       "data_size_bytes": 8000000,
       "data_size_mb": 7.629,
       "timing": {
-        "total_time_ms": 190.245,
-        "encryption_time_ms": 95.416,
-        "decryption_time_ms": 94.829,
-        "encryption_speed_ops_sec": 5240183.826,
-        "decryption_speed_ops_sec": 5272650.942
+        "total_time_ms": 189.572,
+        "encryption_time_ms": 95.293,
+        "decryption_time_ms": 94.279,
+        "encryption_speed_ops_sec": 5246975.119,
+        "decryption_speed_ops_sec": 5303396.213
       },
       "throughput": {
-        "encryption_mbps": 670.744,
-        "decryption_mbps": 674.899,
-        "total_mbps": 336.408
+        "encryption_mbps": 671.613,
+        "decryption_mbps": 678.835,
+        "total_mbps": 337.602
       },
       "memory": {
         "usage_bytes": 16000000,
@@ -138,16 +138,16 @@
       "data_size_bytes": 12000000,
       "data_size_mb": 11.444,
       "timing": {
-        "total_time_ms": 493.373,
-        "encryption_time_ms": 256.344,
-        "decryption_time_ms": 237.029,
-        "encryption_speed_ops_sec": 2925752.683,
-        "decryption_speed_ops_sec": 3164169.785
+        "total_time_ms": 284.301,
+        "encryption_time_ms": 142.220,
+        "decryption_time_ms": 142.081,
+        "encryption_speed_ops_sec": 5273502.916,
+        "decryption_speed_ops_sec": 5278686.791
       },
       "throughput": {
-        "encryption_mbps": 374.496,
-        "decryption_mbps": 405.014,
-        "total_mbps": 194.579
+        "encryption_mbps": 675.008,
+        "decryption_mbps": 675.672,
+        "total_mbps": 337.670
       },
       "memory": {
         "usage_bytes": 24000000,
@@ -164,16 +164,16 @@
       "data_size_bytes": 16000000,
       "data_size_mb": 15.259,
       "timing": {
-        "total_time_ms": 378.795,
-        "encryption_time_ms": 189.981,
-        "decryption_time_ms": 188.814,
-        "encryption_speed_ops_sec": 5263676.173,
-        "decryption_speed_ops_sec": 5296212.785
+        "total_time_ms": 380.376,
+        "encryption_time_ms": 190.563,
+        "decryption_time_ms": 189.814,
+        "encryption_speed_ops_sec": 5247616.443,
+        "decryption_speed_ops_sec": 5268329.176
       },
       "throughput": {
-        "encryption_mbps": 673.751,
-        "decryption_mbps": 677.915,
-        "total_mbps": 337.913
+        "encryption_mbps": 671.695,
+        "decryption_mbps": 674.346,
+        "total_mbps": 336.509
       },
       "memory": {
         "usage_bytes": 32000000,

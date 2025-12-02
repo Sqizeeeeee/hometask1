@@ -231,7 +231,7 @@ int main() {
         std::cout << "   SEED CRYPTO BENCHMARK SUITE" << std::endl;
         std::cout << "==========================================" << std::endl;
         
-        auto prices = readEntireCSV("../../../data/processed/paysim_32bit.csv");
+        auto prices = readEntireCSV("../../../data/processed/1mln.csv");
         
         if (prices.empty()) {
             std::cerr << "❌ Нет данных для тестирования" << std::endl;
